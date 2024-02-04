@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>form 6</title>
+<style>
+    html{
+            background-color: darkgray; 
+    }
+    body{
+        
+        background-color:  lightgrey;
+        margin-left: 600px;
+        font-size: 20px;
+
+        margin-right: 150px;
+        width: 350px;
+        height: 520px;
+        border-radius: 30px 0px 30px 0px;
+        
+        margin-top: 120px;
+        padding: 20px;
+        
+    }
+    h2{
+        text-align: center;
+        font-family:cursive
+    }
+
+    form .input_tag{
+        height: 30px;
+        width: 200px;
+        position: relative;
+        margin-top: 15px;
+        
+      }
+      .icon{
+        position: absolute;
+        top: 10px;
+        margin-top: 5px;
+        
+        margin-left: 16px;
+        transform: translateY(-50%);
+        color: gray;
+    }
+      .input_tag input{
+        height: 20px;
+        width: 100%;
+        outline: none;
+        border: 2px solid lightgrey;
+        border-radius: 5px;
+        padding-left: 40px;
+        font-size: 17px;
+        transition: all 0.3s ease;
+        box-shadow: 2px 3px 5px; /* input box shadow */
+      }
+ 
+   
+ 
+  
+    .input_tag{
+         
+        width: 200px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="text"]
+    {
+        width: 300px;
+    }
+    span{
+        color: brown;
+    }
+    input[type="submit"]
+    {
+        width: 120px;
+        height: 30px;
+        color: whitesmoke;
+        background-color: orangered;
+        font-weight: bold;
+        margin-left: 120px;
+        border-radius: 5px;
+        }
+      
+
+</style>
+</head>
+<body>
+ <form action="">
+    <h2> Lo<span>gin</span></h2>
+    <hr>
+    Full Name:
+    <div class="input_tag">
+        
+        <input type="text" placeholder="Full Name">
+        <div class="icon"> <i class="fa fa-user"></i></div>
+    </div>
+    
+<br>
+        Email: 
+    <div class="input_tag">
+        
+        <input type="email" placeholder="Email ">
+        <div class="icon"> <i class="fa fa-envelope"></i></div>
+    </div>
+    <br>
+    Contact Number:
+    <div class="input_tag">
+      
+        <input type="tel" placeholder="Contact Number" maxlength="10">
+        <div class="icon"> <i class="fa fa-phone"></i></div>
+    </div>
+<br>
+     Address:
+    <div class="input_tag">
+       
+        <input type="password" placeholder="password">
+        <div class="icon"> <i class="fa fa-lock"></i></div>
+    </div>
+<br>
+
+</div> 
+<p> <input type="submit" value="Submit"></p>
+ </form> 
+
+
+    </div>
+ </form>
+</body>
+</html>
